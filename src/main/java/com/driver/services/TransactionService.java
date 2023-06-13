@@ -62,7 +62,6 @@ public class TransactionService {
         Transaction transaction = Transaction.builder().
                 card(card).
                 book(book).
-                fineAmount(5).
                 isIssueOperation(true).
                 transactionStatus(TransactionStatus.SUCCESSFUL).
                 transactionDate(new Date()).build();
